@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dndcs/3.png</file>
+        <file>dndcs/2.png</file>
+        <file>dndcs/1.png</file>
+    </qresource>
+</RCC>

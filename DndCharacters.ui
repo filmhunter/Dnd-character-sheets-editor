@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DndCharacters</class>
+ <widget class="QMainWindow" name="DndCharacters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>891</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DndCharacters</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>891</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionAddCharacter"/>
+    <addaction name="actionDeleteCharacter"/>
+    <addaction name="actionNewCatalog"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSaveAs"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuDice">
+    <property name="title">
+     <string>Throw dice</string>
+    </property>
+    <addaction name="actionD4"/>
+    <addaction name="actionD6"/>
+    <addaction name="actionD8"/>
+    <addaction name="actionD10"/>
+    <addaction name="actionD12"/>
+    <addaction name="actionD20"/>
+    <addaction name="actionD100"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuDice"/>
+  </widget>
+  <action name="actionAddCharacter">
+   <property name="text">
+    <string>Add sheet</string>
+   </property>
+  </action>
+  <action name="actionDeleteCharacter">
+   <property name="text">
+    <string>Delete sheet</string>
+   </property>
+  </action>
+  <action name="actionSaveAs">
+   <property name="text">
+    <string>Save as...</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open...</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionD4">
+   <property name="text">
+    <string>d4</string>
+   </property>
+  </action>
+  <action name="actionD6">
+   <property name="text">
+    <string>d6</string>
+   </property>
+  </action>
+  <action name="actionD8">
+   <property name="text">
+    <string>d8</string>
+   </property>
+  </action>
+  <action name="actionD10">
+   <property name="text">
+    <string>d10</string>
+   </property>
+  </action>
+  <action name="actionD12">
+   <property name="text">
+    <string>d12</string>
+   </property>
+  </action>
+  <action name="actionD20">
+   <property name="text">
+    <string>d20</string>
+   </property>
+  </action>
+  <action name="actionD100">
+   <property name="text">
+    <string>d100</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionNewCatalog">
+   <property name="text">
+    <string>New catalog</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
