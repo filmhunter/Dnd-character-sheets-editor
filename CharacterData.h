@@ -317,7 +317,7 @@ public:
 
         featuresTraits = jsonObject["featuresTraits"].toString();
     }
-
+    ~CharacterData();
 };
 
 #endif // CHARACTERDATA_H

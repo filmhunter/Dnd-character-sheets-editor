@@ -22,7 +22,6 @@ class CharacterSheet : public QWidget
     Q_OBJECT
 
 public:
-    //void fromJson(QJsonObject&);
     explicit CharacterSheet(CharacterData *newOne, QWidget *parent = nullptr);
     ~CharacterSheet();  
 
